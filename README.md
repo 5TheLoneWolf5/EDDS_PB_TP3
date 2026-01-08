@@ -4,7 +4,10 @@
 
 ### Vídeo:
 
-<video src="https://github.com/5TheLoneWolf5/EDDS_PB_TP2/blob/main/selenium_tests.mp4?raw=true" width="320" height="240" controls></video>
+<video width="640" height="480" controls>
+  <source src="./selenium_tests.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### Cobertura de testes:
 #### Objetivo: 80% (alcançado).
