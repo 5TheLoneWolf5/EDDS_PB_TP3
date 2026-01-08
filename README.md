@@ -4,10 +4,7 @@
 
 ### Vídeo:
 
-<video width="640" height="480" controls>
-  <source src="./selenium_tests.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/7c40a380-61f7-4922-9563-5b315797a1a5
 
 ### Cobertura de testes:
 #### Objetivo: 80% (alcançado).
