@@ -43,7 +43,10 @@ Agora, é possível executar os testes com Selenium e acessar a aplicação no b
 
 https://github.com/user-attachments/assets/7c40a380-61f7-4922-9563-5b315797a1a5
 
+### Relatório de Testes
+#### Todos os testes estão passando e colocam à prova o funcionamento do código.
+
 ### Cobertura de Testes
-#### Objetivo: 80% (alcançado).
+#### Objetivo: 100% em Service (Regras de Negócio e Lógica - alcançado). 80% geral (alcançado).
 
 ![Cobertura JaCoCo](https://github.com/5TheLoneWolf5/EDDS_PB_TP1/blob/main/jacoco_coverage.jpg?raw=true)
