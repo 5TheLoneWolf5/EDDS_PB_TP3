@@ -22,7 +22,7 @@ const NAVIGATION: Navigation = [
 ];
 
 const BRANDING = {
-  title: "CRUD de Contas Bancárias",
+  title: "CRUD FinTech",
 };
 
 

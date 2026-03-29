@@ -6,7 +6,7 @@ export default function HomePage() {
   return (    
     <PageContainer>
       <Typography>
-        Bem vindo ao programa CRUD de contas bancárias!
+        Bem vindo ao programa CRUD FinTech!
       </Typography>
     </PageContainer>
   );
