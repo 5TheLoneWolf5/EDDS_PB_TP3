@@ -1,4 +1,4 @@
-# Projeto API CRUD do Banco
+# Projeto API CRUD FinTech
 
 ### Manual de Execução
 
