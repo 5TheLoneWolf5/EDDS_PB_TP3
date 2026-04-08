@@ -2,10 +2,10 @@ FROM node:24-alpine AS build-stage
 
 WORKDIR /app
 
-COPY ./Front-End/package*.json ./
+COPY ./Front-end/package*.json ./
 RUN npm install
 
-COPY ./Front-End .
+COPY ./Front-end .
 RUN npm run build
 
 FROM nginx:stable-alpine
