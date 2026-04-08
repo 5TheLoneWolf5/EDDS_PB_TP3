@@ -7,7 +7,7 @@ export interface Conta extends DataModel {
   saldo: number;
 }
 
-const API_BASE = 'http://localhost:8080/contas-banco';
+const API_BASE = 'https://eddspbtp1-production.up.railway.app/contas-banco';
 
 const handleResponse = async (res: Response) => {
   if (!res.ok) {
