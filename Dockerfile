@@ -8,4 +8,4 @@ RUN npm install
 COPY ./Front-end .
 RUN npm run build
 
-CMD ["sh", "-c", "serve -s dist -l $PORT"]
+CMD ["sh", "-c", "npm run preview -- --host 0.0.0.0 --port $PORT"]
