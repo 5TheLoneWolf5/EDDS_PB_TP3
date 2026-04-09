@@ -38,6 +38,8 @@ jobs:
 
       - name: Deploy
         working-directory: ./frontend_src
-        run: railway up --service=${{ env.SVC_ID }}
+        run: |
+          railway unlink --yes || true
+          railway up --service=${{ env.SVC_ID }}
         env:
           RAILWAY_TOKEN: ${{ env.RAILWAY_TOKEN }}
