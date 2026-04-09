@@ -29,7 +29,6 @@ jobs:
         with:
           repository: 5TheLoneWolf5/EDDS_PB_TP3
           ref: main
-          path: frontend_src
 
       - name: Verify context
         run: railway status
@@ -37,9 +36,7 @@ jobs:
           RAILWAY_TOKEN: ${{ env.RAILWAY_TOKEN }}
 
       - name: Deploy
-        working-directory: ./frontend_src
         run: |
-          railway unlink --yes || true
           railway up --service=${{ env.SVC_ID }}
         env:
           RAILWAY_TOKEN: ${{ env.RAILWAY_TOKEN }}
