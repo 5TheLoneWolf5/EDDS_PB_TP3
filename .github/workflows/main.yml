@@ -6,8 +6,14 @@ on:
   pull_request:
     branches: [ "main" ]
   workflow_call:
+    inputs:
+      SVC_ID:
+        required: true
+        type: string
     secrets:
       API_KEY:
+        required: true
+      RAILWAY_TOKEN:
         required: true
 
 jobs:
