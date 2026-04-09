@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     container: ghcr.io/railwayapp/cli:latest
     env:
-      SVC_ID: ${{ inputs.SVC_ID }}
+      SVC_ID: ${{ inputs.SVC_ID || vars.RAILWAY_SERVICE_ID }}
       RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
     steps:
       - name: Verify context
